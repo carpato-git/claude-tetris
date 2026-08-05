@@ -133,7 +133,7 @@ kbd {
   color: #7aa2f7;
 }
 
-#restart-btn {
+.btn-primary {
   margin-top: 8px;
   background: #7aa2f7;
   color: #0f0f17;
@@ -147,7 +147,7 @@ kbd {
   transition: background 0.15s;
 }
 
-#restart-btn:hover {
+.btn-primary:hover {
   background: #9bbdff;
 }
 
@@ -267,20 +267,3 @@ kbd {
   color: #7aa2f7;
 }
 
-#play-btn {
-  margin-top: 8px;
-  background: #7aa2f7;
-  color: #0f0f17;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 28px;
-  font-size: 14px;
-  font-weight: 700;
-  cursor: pointer;
-  letter-spacing: 1px;
-  transition: background 0.15s;
-}
-
-#play-btn:hover {
-  background: #9bbdff;
-}
