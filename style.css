@@ -70,6 +70,22 @@ body {
   border-radius: 4px;
 }
 
+/* ---- Theme selector ---- */
+.theme-section select {
+  background: #22223a;
+  border: 1px solid #3a3a5a;
+  border-radius: 4px;
+  color: #e0e0e0;
+  font-family: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+body[data-theme="neon"] #board {
+  background: #000000;
+}
+
 /* ---- Controles ---- */
 .controls ul {
   list-style: none;
